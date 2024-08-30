@@ -81,3 +81,74 @@ font-size: 13px;
     color: white;
 
 }
+.pro{
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.pro img{
+    width: 100%;
+}
+.profun{
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 50px;
+    left: 37vw;
+    font-family:  SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.profun h2{
+    font-size: 56px;
+    margin: 0;
+}
+.profun p{
+    margin: 0;
+    font-size: 28px;
+}
+.profun .btn1{
+    background-color: #0077ED;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    /* font-size: 13px; */
+    font-size:larger;
+}
+.profun .btn2{
+    background-color: #000000;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: solid 1px #0077ED ;
+    color: #0077ED;
+    font-size:larger;
+
+}
+.profun .btn2:hover{
+    background-color: #0077ED;
+    color: white;
+}
+.adgrid{
+    display: grid;
+    /* margin: auto; */
+    margin-top: 300px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 400px 400px 400px;
+    padding: 10px;
+    gap: 10px;
+}
+.adgrid .a1 img{
+    width: 100%;
+    height: 100%;
+}
+.notice{
+    background-color: whitesmoke;
+}
+
+.ntctxt{
+    font-size: x-small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(51, 51, 51);
+    width: 70%;
+    margin: auto;
+}    
